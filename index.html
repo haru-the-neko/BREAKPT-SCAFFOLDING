@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Page with Breakpoints and Scaffolding</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"/>
+  <style>
+    body {
+      background-color: red;
+      text-align: center;
+    }
+
+    @media (min-width: 576px) {
+      body {
+        background-color: orange;
+      }
+    }
+
+    @media (min-width: 768px) {
+      body {
+        background-color: yellow;
+      }
+    }
+
+    @media (min-width: 992px) {
+      body {
+        background-color: pink;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      body {
+        background-color: blue;
+      }
+    }
+
+    @media (min-width: 1400px) {
+      body {
+        background-color: indigo;
+      }
+    }
+
+    .container {
+      font-family: Arial, sans-serif;
+      border: 3px dashed blue;
+      background-color: #f8f9fa;
+    }
+
+    footer {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <h2 class="mt-5">Responsive breakpoint design</h2>
+
+ 
+  <section id="scaffolding" class="mt-5">
+    <h3>Resize this window to see the different breakpoints</h3>
+
+    <div class="container">
+      <div class="row">
+        <header class="col-md-12 p-5 text-center">HEADER</header>
+      </div>
+      <div class="row">
+        <div class="col-md-4 bg-warning p-3 text-center">1/3</div>
+        <div class="col-md-4 bg-success p-3 text-center">1/3</div>
+        <div class="col-md-4 bg-success p-3 text-center">1/3</div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 bg-info p-5 text-center">1/3</div>
+        <div class="col-md-8 bg-danger p-5 text-center">2/3</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 bg-warning p-3 text-center">1/4</div>
+        <div class="col-md-6 bg-success p-3 text-center">1/2</div>
+        <div class="col-md-3 bg-warning p-3 text-center">1/4</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 bg-success p-3 text-center">1/4</div>
+        <div class="col-md-3 bg-danger p-3 text-center">1/4</div>
+        <div class="col-md-3 bg-warning p-3 text-center">1/4</div>
+        <div class="col-md-3 bg-info p-3 text-center">1/4</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 bg-success p-3 text-center">1/4</div>
+        <div class="col-md-6 bg-danger">
+          <div class="row">
+            <div class="col-md-6 bg-info p-3 text-center">1/4</div>
+            <div class="col-md-6 bg-info p-3 text-center">1/4</div>
+          </div>
+        </div>
+        <div class="col-md-3 bg-warning p-3 text-center">1/4</div>
+      </div>
+      <footer class="row">
+        <div class="col-md-2 bg-success p-1 text-center">1/6</div>
+        <div class="col-md-7 bg-danger p-1 text-center">7/12</div>
+        <div class="col-md-3 bg-warning p-1 text-center">1/4</div>
+      </footer>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
